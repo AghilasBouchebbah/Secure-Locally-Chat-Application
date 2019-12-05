@@ -40,5 +40,9 @@ par l’utilisateur.  Le logiciel ne nécessite aucune connexion Internet et fon
  Les systèmes cryptographiques asymétriques et symétriques assurent ensemble la sécurité de la transmission des données sur un support non sécurisé. Cela fonctionne en deux étapes, dans un premier temps, la clé pour chiffrer / déchiffrer les informations est partagée à l'aide de paires de clés RSA (cryptographie asymétrique). Une fois la première étape terminée, la communication s'effectue au cours de la deuxième étape, où les informations sont cryptées / décryptées à l’aide de clés symétriques AES (partagées en toute sécurité durant l’étape 1 ).
  
  
+ 
+ 4- Vue global sur le fonctionnement :
+ 
+ 
  ![Login](https://user-images.githubusercontent.com/58481599/70267110-0e469600-179e-11ea-8e6f-36c34686e2df.PNG)
-
+                                           fenetre d'authentification
