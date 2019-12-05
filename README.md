@@ -19,16 +19,16 @@ par l’utilisateur.  Le logiciel ne nécessite aucune connexion Internet et fon
 
 
 
+
 2- Conception Globale
 
    L’application se repose sur le modèle d'architecture client-serveur, Divisé en deux modules (module de discussion client et module serveur) qui  peuvent communiquer entre eux sur un réseau lors de l’établissement d’une connexion, ce qui dépend des numéros de port et des adresses IP de l’ordinateur hôte. Chaque modèle contiendrait un schéma de chiffrement et de déchiffrement utilisant la cryptographie hybride en mixant l'algorithme AES  avec RAS, afin de chiffrer chaque message sortant d’une extrémité (client ou serveur) et de le déchiffré à l'extrémité de réception de la communication (client ou serveur).
    
    
+   
 
 3-  Le mécanisme de cryptographie utilisé
- 
-     Cryptographie hybride :
+  
+   Cryptograpie hybride :
 
-     Les systèmes cryptographiques asymétriques et symétriques assurent ensemble la sécurité de la transmission des données sur un support non sécurisé. Cela fonctionne en deux étapes, dans un premier temps, la clé pour chiffrer / déchiffrer les informations est partagée à l'aide de paires de clés RSA (cryptographie asymétrique). Une fois la première étape terminée, la communication s'effectue au cours de la deuxième étape, où les informations sont cryptées / décryptées à l’aide de clés symétriques AES (partagées en toute sécurité durant l’étape 1 ).
-
-
+ Les systèmes cryptographiques asymétriques et symétriques assurent ensemble la sécurité de la transmission des données sur un support non sécurisé. Cela fonctionne en deux étapes, dans un premier temps, la clé pour chiffrer / déchiffrer les informations est partagée à l'aide de paires de clés RSA (cryptographie asymétrique). Une fois la première étape terminée, la communication s'effectue au cours de la deuxième étape, où les informations sont cryptées / décryptées à l’aide de clés symétriques AES (partagées en toute sécurité durant l’étape 1 ).
