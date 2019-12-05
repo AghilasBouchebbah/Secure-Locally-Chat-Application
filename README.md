@@ -1,6 +1,10 @@
 # Secure-Locally-Chat-Application
 
+
 Une simple application de méssagerie instantannée et sécurisée en local.  Elle est developper en Java
+
+
+le contenue graphique de l'application ainsi que les boites de dialogue sont en Francais
 
 
 1- Description Globale :
@@ -20,12 +24,14 @@ par l’utilisateur.  Le logiciel ne nécessite aucune connexion Internet et fon
 
 
 
+
 2- Conception Globale
 
    L’application se repose sur le modèle d'architecture client-serveur, Divisé en deux modules (module de discussion client et module serveur) qui  peuvent communiquer entre eux sur un réseau lors de l’établissement d’une connexion, ce qui dépend des numéros de port et des adresses IP de l’ordinateur hôte. Chaque modèle contiendrait un schéma de chiffrement et de déchiffrement utilisant la cryptographie hybride en mixant l'algorithme AES  avec RAS, afin de chiffrer chaque message sortant d’une extrémité (client ou serveur) et de le déchiffré à l'extrémité de réception de la communication (client ou serveur).
    
    
    
+
 
 3-  Le mécanisme de cryptographie utilisé
   
