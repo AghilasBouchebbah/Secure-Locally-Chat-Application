@@ -73,12 +73,6 @@ La fenetre d'authentification
  La fenetre d'ajout d'ami
  
   L'utilisateur peut voir l’ensemble des personnes possédant un compte sur l’application et qui ne sont pas ami avec lui. En cliquant sur une personne, ses informations ainsi que sa photo seront afficher en haut du panneau. Il peut ainsi lui envoyer une demande à devenir ami, comme il peut supprimer une demande déjà envoyée.
-
-                                           
-                                          
-                                           
-
-
-
-
+  
+![AjoutAmis](https://user-images.githubusercontent.com/58481599/70313507-0f1b0e80-1816-11ea-8e1c-8927860ab880.PNG)
 
