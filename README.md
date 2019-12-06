@@ -120,10 +120,12 @@ G)- echanges de message et fichiers
  Les deux utilisateurs sont connectés, donc les messages sont échangés d’une manière instantanée et sécurisé par l’intermédiaire du serveur qui permet d’acheminer les messages.
  
 Les deux utilisateurs peuvent entamer  une conversation audio, s’échanger des messages textuel, envoyer des fichiers. 
-En cas du fichier le destinataire aura la possibilité d’accepter ou de refuser la réception du fichier.
+En cas du fichier, le destinataire aura la possibilité d’accepter ou de refuser la réception du fichier.
 Si l’un d’entre eux supprime l’historique des messages, l’autre extrémité conservera toujours l’historique.
 
+![envoi ficher 4](https://user-images.githubusercontent.com/58481599/70313508-0fb3a500-1816-11ea-9780-eb52d21c7af3.PNG)
 
+![envoi fichier 2](https://user-images.githubusercontent.com/58481599/70313510-0fb3a500-1816-11ea-98e5-8204d3bdb6c5.PNG)
 
 Le panneau de messages manqués
 
