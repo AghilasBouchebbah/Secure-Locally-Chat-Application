@@ -53,11 +53,16 @@ avant toutes utilisation, il faut lancer le serveur qui recevra les connexions d
 La fenetre d'authentification
 
 1-	Demande de connexion au server est primordial avant toute utilisation.	
-
 2-	L’utilisateur devra ensuite s’authentifier par un nom d’utilisateur unique et un mot de passe. La requête d’authentification est envoyée au serveur, et un message d’erreur apparait si les informations introduites n’existent pas. Toutefois si un utilisateur ne possède pas de compte, il pourra s’enregistrer et créer son propre compte
 
 
  ![Login](https://user-images.githubusercontent.com/58481599/70267110-0e469600-179e-11ea-8e6f-36c34686e2df.PNG)
+ 
+ 
+ 
+ La fenetre d'accueil
+ 
+ 1- La fenetre contient l’ensemble des options que peut satisfaire l’application (gestion du compte, ajout d’un ami, gestion des invitations reçus, consulter les messages manqués, voir la liste des contacts...).
                                            
                                            
 
