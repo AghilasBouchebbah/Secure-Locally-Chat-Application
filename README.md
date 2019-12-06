@@ -44,6 +44,7 @@ par l’utilisateur.  Le logiciel ne nécessite aucune connexion Internet et fon
  4- Vue global sur le fonctionnement :
  
 La fenetre serveur
+
 avant toutes utilisation, il faut lancer le serveur qui recevra les connexions des clients et leurs echanges.
 
  ![Server](https://user-images.githubusercontent.com/58481599/70313517-117d6880-1816-11ea-8d17-997afa1f3929.PNG)
@@ -66,6 +67,13 @@ La fenetre d'authentification
  -  Le panneau à droite représente celui de la gestion du compte qui apparait en premier lors de l’authentification, et qui est aussi accessible via un bouton. L’utilisateur peut modifier ses informations et envoyer la requête au serveur qui mit à jour sa BDD. 
  
  ![page acceuille](https://user-images.githubusercontent.com/58481599/70313515-10e4d200-1816-11ea-8609-abc1ee7815f9.PNG)
+ 
+ 
+ 
+ La fenetre d'ajout d'ami
+ 
+  L'utilisateur peut voir l’ensemble des personnes possédant un compte sur l’application et qui ne sont pas ami avec lui. En cliquant sur une personne, ses informations ainsi que sa photo seront afficher en haut du panneau. Il peut ainsi lui envoyer une demande à devenir ami, comme il peut supprimer une demande déjà envoyée.
+
                                            
                                           
                                            
