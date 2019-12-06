@@ -63,7 +63,10 @@ La fenetre d'authentification
  La fenetre d'accueil
  
  1- La fenetre contient l’ensemble des options que peut satisfaire l’application (gestion du compte, ajout d’un ami, gestion des invitations reçus, consulter les messages manqués, voir la liste des contacts...).
+ 
+ ![page acceuille](https://user-images.githubusercontent.com/58481599/70313515-10e4d200-1816-11ea-8609-abc1ee7815f9.PNG)
                                            
+                                          
                                            
 
 
