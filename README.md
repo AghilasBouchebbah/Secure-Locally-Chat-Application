@@ -49,8 +49,11 @@ avant toutes utilisation, il faut lancer le serveur qui recevra les connexions d
  ![Server](https://user-images.githubusercontent.com/58481599/70313517-117d6880-1816-11ea-8d17-997afa1f3929.PNG)
  
 
+
 La fenetre d'authentification
+
 1-	Demande de connexion au server est primordial avant toute utilisation.	
+
 2-	L’utilisateur devra ensuite s’authentifier par un nom d’utilisateur unique et un mot de passe. La requête d’authentification est envoyée au serveur, et un message d’erreur apparait si les informations introduites n’existent pas. Toutefois si un utilisateur ne possède pas de compte, il pourra s’enregistrer et créer son propre compte
 
 
