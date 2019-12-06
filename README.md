@@ -75,19 +75,28 @@ La fenetre d'authentification
  
  
  
- La fenetre d'ajout d'ami
+ La panneau d'ajout d'ami
  
   L'utilisateur peut voir l’ensemble des personnes possédant un compte sur l’application et qui ne sont pas ami avec lui. En cliquant sur une personne, ses informations ainsi que sa photo seront afficher en haut du panneau. Il peut ainsi lui envoyer une demande à devenir ami, comme il peut supprimer une demande déjà envoyée.
   
 ![AjoutAmis](https://user-images.githubusercontent.com/58481599/70313507-0f1b0e80-1816-11ea-8e1c-8927860ab880.PNG)
 
 
-La fenetre de gestion des invitations
+La panneau de gestion des invitations
 
 L’utilisateur peut voir le nombre d’invitation qui lui sont envoyées, et peut consulter l’ensemble de ces invitations, En cliquant sur une personne, ses informations ainsi que sa photo seront afficher en haut du panneau.
 Il peut ainsi accepter  ou refuser une invitation et  la requête sera envoyer au serveur qui mit à jour la BDD :
 
 1-	En cas d’acceptation, la personne acceptée sera supprimer de tableau d’invitations, et sera ajouter dans la liste des contacts.
+
 2-	En cas de refus, la personne refusée sera supprimé du tableau d’invitations.
 
 ![accepter invitation](https://user-images.githubusercontent.com/58481599/70313505-0f1b0e80-1816-11ea-89ef-9e4a4fc8111a.PNG)
+
+
+La panneau de messages manqués
+
+L’utilisateur, lors de sa  connexion à l’application, il peut voir le nombre d’amis qui lui ont laissé des messages en son absence, il peut ainsi consulter la liste des  amis propriétaires de ces messages. 
+
+En cliquant sur un ami, ce dernier sera supprimer de la liste des messages manqués,  le nombre de message manqués sera décrémenter, et le panneau dédier au profile d’amis sera afficher et l’utilisateur peut voir le contenue du message qu’il a manqué.
+
