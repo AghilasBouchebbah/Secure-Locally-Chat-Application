@@ -43,7 +43,7 @@ par l’utilisateur.  Le logiciel ne nécessite aucune connexion Internet et fon
  
  4- Vue global sur le fonctionnement :
  
-La fenetre serveur
+A)- La fenetre serveur
 
 avant toutes utilisation, il faut lancer le serveur qui recevra les connexions des clients et leurs echanges.
 
@@ -51,7 +51,7 @@ avant toutes utilisation, il faut lancer le serveur qui recevra les connexions d
  
 
 
-La fenetre d'authentification
+B)- La fenetre d'authentification
 
 1-	Demande de connexion au server est primordial avant toute utilisation.	
 2-	L’utilisateur devra ensuite s’authentifier par un nom d’utilisateur unique et un mot de passe. La requête d’authentification est envoyée au serveur, et un message d’erreur apparait si les informations introduites n’existent pas. Toutefois si un utilisateur ne possède pas de compte, il pourra s’enregistrer et créer son propre compte
@@ -61,7 +61,7 @@ La fenetre d'authentification
  
  
  
- La fenetre d'accueil
+ C)- La fenetre d'accueil
  
  cette fenetre est constituer de deux paneneaux: 
  
@@ -75,14 +75,14 @@ La fenetre d'authentification
  
  
  
- La panneau d'ajout d'ami
+ D)- La panneau d'ajout d'ami
  
   L'utilisateur peut voir l’ensemble des personnes possédant un compte sur l’application et qui ne sont pas ami avec lui. En cliquant sur une personne, ses informations ainsi que sa photo seront afficher en haut du panneau. Il peut ainsi lui envoyer une demande à devenir ami, comme il peut supprimer une demande déjà envoyée.
   
 ![AjoutAmis](https://user-images.githubusercontent.com/58481599/70313507-0f1b0e80-1816-11ea-8e1c-8927860ab880.PNG)
 
 
-La panneau de gestion des invitations
+E)- La panneau de gestion des invitations
 
 L’utilisateur peut voir le nombre d’invitation qui lui sont envoyées, et peut consulter l’ensemble de ces invitations, En cliquant sur une personne, ses informations ainsi que sa photo seront afficher en haut du panneau.
 Il peut ainsi accepter  ou refuser une invitation et  la requête sera envoyer au serveur qui mit à jour la BDD :
@@ -94,9 +94,27 @@ Il peut ainsi accepter  ou refuser une invitation et  la requête sera envoyer a
 ![accepter invitation](https://user-images.githubusercontent.com/58481599/70313505-0f1b0e80-1816-11ea-89ef-9e4a4fc8111a.PNG)
 
 
-La panneau de messages manqués
+F)- Le panneau du profil d'ami
+
+L’utilisateur peut voir la liste de ses contacts. En cliquant sur un contact, le panneau affichant son profil apparaitra, et une requet sera envoyer au serveur pour renvoyer ses informations
+
+1-	Il peut voir l’ensemble de ses informations (nom, prénom, état, photo …).
+2-	Il peut voir l’historique des messages échangés avec cet ami et ceux qui seront échangés durant cette session. il peut ainsi supprimer tout l’historique des messages mais pas chez l’ami concerné.
+3-	Voir l’état de cet ami, si il est connecté il pourra s’échanger des messages instantanés,
+Sinon il peut lui laisser un message et le destinataire le verra à sa connexion.
+L’échange des messages avec un ami bloqué ne peut pas avoir lieu.
+4-	 Il peut supprimer cet ami, et donc il sera supprimer de sa liste des contacts, et idem pour extrémité. Par ailleurs il peut lui envoyer de nouveau une demande d’ami.
+5-	Il peut bloquer cet ami mais son le supprimer, et tout échange avec lui sera impossible.
+Par ailleurs, il peut le débloquer à tout moment.
+Concernant l’autre extrémité, cet utilisateur sera totalement invisible.
+
+
+
+
+Le panneau de messages manqués
 
 L’utilisateur, lors de sa  connexion à l’application, il peut voir le nombre d’amis qui lui ont laissé des messages en son absence, il peut ainsi consulter la liste des  amis propriétaires de ces messages. 
-
 En cliquant sur un ami, ce dernier sera supprimer de la liste des messages manqués,  le nombre de message manqués sera décrémenter, et le panneau dédier au profile d’amis sera afficher et l’utilisateur peut voir le contenue du message qu’il a manqué.
+
+![message manquee](https://user-images.githubusercontent.com/58481599/70313512-104c3b80-1816-11ea-843a-30e4b7dd66d6.PNG)
 
