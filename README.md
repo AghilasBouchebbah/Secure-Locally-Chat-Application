@@ -64,6 +64,7 @@ La fenetre d'authentification
  La fenetre d'accueil
  
  cette fenetre est constituer de deux paneneaux: 
+ 
  1- un panneau fixe qui se situe sur le coté gauche de la fenetre, contenant l’ensemble des options que peut satisfaire l’application (gestion du compte, ajout d’un ami, gestion des invitations reçus, consulter les messages manqués, voir la liste des contacts...).
  
  2-un panneau dynamique qui se situe sur le coté droit de la fenetre et qui change avec les cas demandé par l'utilisateur.
@@ -85,7 +86,8 @@ La fenetre de gestion des invitations
 
 L’utilisateur peut voir le nombre d’invitation qui lui sont envoyées, et peut consulter l’ensemble de ces invitations, En cliquant sur une personne, ses informations ainsi que sa photo seront afficher en haut du panneau.
 Il peut ainsi accepter  ou refuser une invitation et  la requête sera envoyer au serveur qui mit à jour la BDD :
+
 1-	En cas d’acceptation, la personne acceptée sera supprimer de tableau d’invitations, et sera ajouter dans la liste des contacts.
 2-	En cas de refus, la personne refusée sera supprimé du tableau d’invitations.
 
-
+![accepter invitation](https://user-images.githubusercontent.com/58481599/70313505-0f1b0e80-1816-11ea-89ef-9e4a4fc8111a.PNG)
