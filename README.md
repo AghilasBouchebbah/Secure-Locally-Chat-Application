@@ -3,6 +3,9 @@
 
 Une simple application de méssagerie instantannée et sécurisée en local.  Elle est developper en Java
 
+MOTS CLES: Java, génie logiciel,programmation ortienté objets, d’interface homme-machine, programmation réseau à sockets, Sécurité informatique, gestion de bases de données Mysql.
+
+Platformes: Netbeans, Wampserver.
 
 le contenue graphique de l'application ainsi que les boites de dialogue sont en Francais
 
