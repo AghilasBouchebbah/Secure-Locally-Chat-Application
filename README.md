@@ -99,16 +99,20 @@ F)- Le panneau du profil d'ami
 L’utilisateur peut voir la liste de ses contacts. En cliquant sur un contact, le panneau affichant son profil apparaitra, et une requet sera envoyer au serveur pour renvoyer ses informations
 
 1-	Il peut voir l’ensemble de ses informations (nom, prénom, état, photo …).
+
 2-	Il peut voir l’historique des messages échangés avec cet ami et ceux qui seront échangés durant cette session. il peut ainsi supprimer tout l’historique des messages mais pas chez l’ami concerné.
+
 3-	Voir l’état de cet ami, si il est connecté il pourra s’échanger des messages instantanés,
 Sinon il peut lui laisser un message et le destinataire le verra à sa connexion.
 L’échange des messages avec un ami bloqué ne peut pas avoir lieu.
+
 4-	 Il peut supprimer cet ami, et donc il sera supprimer de sa liste des contacts, et idem pour extrémité. Par ailleurs il peut lui envoyer de nouveau une demande d’ami.
+
 5-	Il peut bloquer cet ami mais son le supprimer, et tout échange avec lui sera impossible.
 Par ailleurs, il peut le débloquer à tout moment.
 Concernant l’autre extrémité, cet utilisateur sera totalement invisible.
 
-
+![profil ami](https://user-images.githubusercontent.com/58481599/70313516-117d6880-1816-11ea-9ef1-fae081d06f8e.PNG)
 
 
 Le panneau de messages manqués
