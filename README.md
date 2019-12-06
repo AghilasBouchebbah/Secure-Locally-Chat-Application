@@ -115,6 +115,16 @@ Concernant l’autre extrémité, cet utilisateur sera totalement invisible.
 ![profil ami](https://user-images.githubusercontent.com/58481599/70313516-117d6880-1816-11ea-9ef1-fae081d06f8e.PNG)
 
 
+G)- echanges de message et fichiers 
+
+ Les deux utilisateurs sont connectés, donc les messages sont échangés d’une manière instantanée et sécurisé par l’intermédiaire du serveur qui permet d’acheminer les messages.
+ 
+Les deux utilisateurs peuvent entamer  une conversation audio, s’échanger des messages textuel, envoyer des fichiers. 
+En cas du fichier le destinataire aura la possibilité d’accepter ou de refuser la réception du fichier.
+Si l’un d’entre eux supprime l’historique des messages, l’autre extrémité conservera toujours l’historique.
+
+
+
 Le panneau de messages manqués
 
 L’utilisateur, lors de sa  connexion à l’application, il peut voir le nombre d’amis qui lui ont laissé des messages en son absence, il peut ainsi consulter la liste des  amis propriétaires de ces messages. 
